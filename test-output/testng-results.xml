@@ -2,20 +2,20 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-16T16:26:16 IST" name="Default suite" finished-at="2025-08-16T16:26:22 IST" duration-ms="6232">
+  <suite started-at="2025-08-21T11:11:54 IST" name="Default suite" finished-at="2025-08-21T11:12:00 IST" duration-ms="5719">
     <groups>
     </groups>
-    <test started-at="2025-08-16T16:26:16 IST" name="Default test" finished-at="2025-08-16T16:26:22 IST" duration-ms="6232">
-      <class name="api.test.UserTests">
-        <test-method is-config="true" signature="SetupData()[pri:0, instance:api.test.UserTests@55cb6996]" started-at="2025-08-16T16:26:16 IST" name="SetupData" finished-at="2025-08-16T16:26:17 IST" duration-ms="429" status="PASS">
+    <test started-at="2025-08-21T11:11:54 IST" name="Default test" finished-at="2025-08-21T11:12:00 IST" duration-ms="5719">
+      <class name="api.test.UserTestsFromProperties">
+        <test-method is-config="true" signature="SetupData()[pri:0, instance:api.test.UserTestsFromProperties@55cb6996]" started-at="2025-08-21T11:11:54 IST" name="SetupData" finished-at="2025-08-21T11:11:55 IST" duration-ms="470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetupData -->
-        <test-method signature="testGetUSer()[pri:0, instance:api.test.UserTests@55cb6996]" started-at="2025-08-16T16:26:17 IST" name="testGetUSer" finished-at="2025-08-16T16:26:22 IST" duration-ms="5725" status="PASS">
+        <test-method signature="testGetUSer()[pri:0, instance:api.test.UserTestsFromProperties@55cb6996]" started-at="2025-08-21T11:11:55 IST" name="testGetUSer" finished-at="2025-08-21T11:12:00 IST" duration-ms="5161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUSer -->
-      </class> <!-- api.test.UserTests -->
+      </class> <!-- api.test.UserTestsFromProperties -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

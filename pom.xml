@@ -95,9 +95,9 @@
 
 		<!-- https://mvnrepository.com/artifact/org.json/json -->
 		<dependency>
-		    <groupId>org.json</groupId>
-		    <artifactId>json</artifactId>
-		    <version>20250517</version>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20250517</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
 		<dependency>
@@ -112,22 +112,22 @@
 			<artifactId>json-schema-validator</artifactId>
 			<version>5.5.3</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis -->
 		<!-- Required For Oauth1 and Oauth2 Authentications -->
-<dependency>
-    <groupId>com.github.scribejava</groupId>
-    <artifactId>scribejava-apis</artifactId>
-    <version>8.3.3</version>
-    <scope>runtime</scope>
-</dependency>
+		<dependency>
+			<groupId>com.github.scribejava</groupId>
+			<artifactId>scribejava-apis</artifactId>
+			<version>8.3.3</version>
+			<scope>runtime</scope>
+		</dependency>
 
-<!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
-<dependency>
-    <groupId>com.github.javafaker</groupId>
-    <artifactId>javafaker</artifactId>
-    <version>1.0.2</version>
-</dependency>
+		<!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+		<dependency>
+			<groupId>com.github.javafaker</groupId>
+			<artifactId>javafaker</artifactId>
+			<version>1.0.2</version>
+		</dependency>
 
 	</dependencies>
 

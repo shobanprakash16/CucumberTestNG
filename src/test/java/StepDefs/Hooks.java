@@ -20,6 +20,7 @@ public class Hooks extends BaseClass {
 	@Before
 	public void setup() {
 
+		
 		System.out.println("Inside Setup");
 		if (!testType.equalsIgnoreCase("API")) {
 			initializeDriver();

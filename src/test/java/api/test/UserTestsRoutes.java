@@ -14,7 +14,7 @@ import api.endpoints.UserEndPointsFromProperties;
 import api.payload.User;
 import io.restassured.response.Response;
 
-public class UserTests {
+public class UserTestsRoutes {
 
 	Faker faker;
 	User userPayload;
@@ -26,7 +26,7 @@ public class UserTests {
 		userPayload=new User();
 		
 		userPayload.setId(0);
-		userPayload.setUsername("shobanprakash");
+		userPayload.setUsername("shobanaprakash");
 		userPayload.setFirstName(faker.name().firstName());
 		userPayload.setLastName(faker.name().lastName());
 		userPayload.setEmail(faker.internet().safeEmailAddress());
@@ -40,7 +40,7 @@ public class UserTests {
 	@Test
 	public void testPostUSer() {
 		
-		Response response =UserEndPointsFromProperties.createUser(userPayload);
+		Response response =UserEndPointsFromRoutes.createUser(userPayload);
 		response.then().log().all();	
 		
 		
@@ -50,7 +50,7 @@ public class UserTests {
 	@Test
 	public void testGetUSer() throws IOException {
 		
-		Response response =UserEndPointsFromProperties.getUser("shobanprakash");
+		Response response =UserEndPointsFromProperties.getUser("Shobanaaaaaa");
 		response.then().log().all();	
 		response.statusCode();
 		Assert.assertEquals(response.statusCode(), 200);
