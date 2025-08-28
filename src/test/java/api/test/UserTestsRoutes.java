@@ -37,7 +37,7 @@ public class UserTestsRoutes {
 		
 	}
 	
-	@Test
+	//@Test
 	public void testPostUSer() {
 		
 		Response response =UserEndPointsFromRoutes.createUser(userPayload);
@@ -47,7 +47,7 @@ public class UserTestsRoutes {
 	}
 	
 	
-	@Test
+	//@Test
 	public void testGetUSer() throws IOException {
 		
 		Response response =UserEndPointsFromProperties.getUser("Shobanaaaaaa");

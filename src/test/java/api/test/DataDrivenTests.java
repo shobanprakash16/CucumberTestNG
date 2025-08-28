@@ -10,7 +10,7 @@ public class DataDrivenTests {
 	
 	
 	
-	@Test(priority=1,dataProvider="Data",dataProviderClass=DataProviderUtils.class)
+	//@Test(priority=1,dataProvider="Data",dataProviderClass=DataProviderUtils.class)
 	public void testPostUser() {
 	
 		

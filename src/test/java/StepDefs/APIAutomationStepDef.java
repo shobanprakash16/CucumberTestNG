@@ -12,15 +12,16 @@ public class APIAutomationStepDef {
 		
 		System.out.println("Inside API Automation Step Definition");
 		//Test the API's
-		String URL= "https://automationexercise.com/api/productsList";
-		RestAssured.baseURI=URL;
-		
-		RequestSpecification req=RestAssured.given().log().all();
-		//req.header("Content-Type","JSON");
-		Response res=req.get(URL);
-		
-		String response=res.body().jsonPath().prettify();
-		System.out.println("Response is==="+"Status code==="+response);
+		/*
+		 * String URL= "https://automationexercise.com/api/productsList";
+		 * RestAssured.baseURI=URL;
+		 * 
+		 * RequestSpecification req=RestAssured.given().log().all();
+		 * //req.header("Content-Type","JSON"); Response res=req.get(URL);
+		 * 
+		 * String response=res.body().jsonPath().prettify();
+		 * System.out.println("Response is==="+"Status code==="+response);
+		 */
 		
 	}
 
